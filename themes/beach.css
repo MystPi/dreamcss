@@ -1,0 +1,12 @@
+:root {
+  --back-color: #fdfcdc;
+  --bold-color: #0081a7;
+
+  --link-color-1: #f07167;
+  --link-color-2: #fed9b7;
+
+  --code-color-1: #00afb9;
+  --code-color-2: #fdfcdc;
+  
+  --button-border: var(--text-color);
+}
