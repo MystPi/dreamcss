@@ -1,0 +1,32 @@
+:root {
+  --font: "Roboto", sans-serif;
+  
+  --transition-duration: 0.2s;
+  
+  --body-max-width: 50em;
+  
+  --text-color: #555;
+  --bold-color: #1d3557;
+  --back-color: #f1faee;
+  
+  --header-left-text: "#";
+  
+  --link-color-1: #e63946;
+  --link-color-2: #F0E2D9;
+  
+  --mark-color-1: #f4f452;
+  --mark-color-2: #f9f99f;
+  
+  --code-color-1: #e6e6e6;
+  --code-color-2: #1d3557;
+  
+  --button-border: lightgray;
+  --button-hover-radius: 10px;
+  --button-padding: 0.5em;
+  
+  --navbar-opacity: 0.9;
+  --navbar-font-size: 1.2em;
+  --navbar-sep: " /";
+  
+  --radius: 4px;
+}
