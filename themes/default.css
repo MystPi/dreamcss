@@ -25,7 +25,7 @@
   --button-padding: 0.5em;
   
   --navbar-font-size: 1.2em;
-  --navbar-sep: " \0000a0•";
+  --navbar-sep: " \0000a0•\0000a0";
   
   --shadow-1-a: 0.2;
   --shadow-2-a: 0.19;
