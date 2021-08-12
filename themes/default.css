@@ -31,5 +31,8 @@
   --shadow-2-a: 0.19;
   --section-radius: 10px;
   
+  --footer-padding: 2em;
+  --footer-align: center;
+  
   --radius: 4px;
 }
