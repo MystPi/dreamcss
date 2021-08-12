@@ -26,7 +26,7 @@
   
   --navbar-opacity: 0.9;
   --navbar-font-size: 1.2em;
-  --navbar-sep: " /";
+  --navbar-sep: " \0000a0•";
   
   --shadow-1-a: 0.2;
   --shadow-2-a: 0.19;
