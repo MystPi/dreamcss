@@ -28,5 +28,8 @@
   --navbar-font-size: 1.2em;
   --navbar-sep: " /";
   
+  --shadow-1-a: 0.2;
+  --shadow-2-a: 0.19;
+  
   --radius: 4px;
 }
