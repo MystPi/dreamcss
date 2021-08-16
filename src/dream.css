@@ -1,1 +1,162 @@
-/* This will be the main DreamCSS file. It'll be released soon. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --font: "Roboto", sans-serif;
+  
+  --transition-duration: 0.2s;
+  
+  --body-max-width: 50em;
+  
+  --text-color: #555;
+  --bold-color: #1d3557;
+  --back-color: #f1faee;
+  
+  --header-left-text: "#";
+  
+  --link-color-1: #e63946;
+  --link-color-2: #F0E2D9;
+  
+  --mark-color-1: #f4f452;
+  --mark-color-2: #f9f99f;
+  
+  --code-color-1: #e6e6e6;
+  --code-color-2: #1d3557;
+  
+  --button-border: lightgray;
+  --button-hover-radius: 10px;
+  --button-padding: 0.5em;
+  
+  --navbar-font-size: 1.2em;
+  --navbar-sep: " \0000a0•\0000a0";
+  
+  --shadow-1-a: 0.2;
+  --shadow-2-a: 0.19;
+  --section-radius: 10px;
+  
+  --footer-padding: 2em;
+  --footer-align: center;
+  
+  --radius: 4px;
+}
+
+
+body {
+  font-family: var(--font);
+  margin: 0 auto;
+  max-width: var(--body-max-width);
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: var(--text-color);
+  background-color: var(--back-color);
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h2::before {
+  content: var(--header-left-text);
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  color: var(--bold-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  border-bottom: 4px solid var(--link-color-1);
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: var(--transition-duration);
+       -o-transition-duration: var(--transition-duration);
+          transition-duration: var(--transition-duration);
+}
+
+a:hover {
+  background-color: var(--link-color-2);
+}
+
+mark {
+  background-color: var(--back-color);
+  color: var(--text-color);
+  border-bottom: 4px solid var(--mark-color-1);
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: var(--transition-duration);
+       -o-transition-duration: var(--transition-duration);
+          transition-duration: var(--transition-duration);
+}
+
+mark:hover {
+  background-color: var(--mark-color-2);
+}
+
+pre, code {
+  background-color: var(--code-color-1);
+  color: var(--code-color-2);
+  padding: 0.2em;
+  border-radius: var(--radius);
+  overflow: auto;
+  word-break: break-all;
+}
+
+button {
+  padding: var(--button-padding);
+  font-family: var(--font);
+  font-size: 1em;
+  color: var(--text-color);
+  background-color: var(--back-color);
+  border: 1px solid var(--button-border);
+  border-radius: var(--radius);
+  -webkit-transition-property: border-radius;
+  -o-transition-property: border-radius;
+  transition-property: border-radius;
+  -webkit-transition-duration: var(--transition-duration);
+       -o-transition-duration: var(--transition-duration);
+          transition-duration: var(--transition-duration);
+}
+
+button:hover {
+  border-radius: var(--button-hover-radius);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav ul li a {
+  color: var(--bold-color);
+  font-size: var(--navbar-font-size);
+  border: none;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li:not(:last-child)::after {
+  content: var(--navbar-sep);
+  font-size: var(--navbar-font-size);
+}
+
+section {
+  padding: 0.5em 2em;
+  border-radius: var(--section-radius);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(200, 200, 200, var(--shadow-1-a)), 0 6px 20px 0 rgba(200, 200, 200, var(--shadow-2-a));
+          box-shadow: 0 4px 8px 0 rgba(200, 200, 200, var(--shadow-1-a)), 0 6px 20px 0 rgba(200, 200, 200, var(--shadow-2-a));
+}
+
+footer {
+  text-align: var(--footer-align);
+  padding-top: var(--footer-padding);
+}
