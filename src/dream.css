@@ -122,6 +122,7 @@ button {
 
 button:hover {
   border-radius: var(--button-hover-radius);
+  cursor: pointer;
 }
 
 nav ul {
