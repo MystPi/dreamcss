@@ -109,6 +109,7 @@ code {
   overflow: auto;
   word-break: break-all;
 }
+
 input {
   padding: var(--button-padding);
   font-family: var(--font);
@@ -116,6 +117,7 @@ input {
   border: 1px solid var(--button-border);
   border-radius: var(--radius);
 }
+
 button {
   padding: var(--button-padding);
   font-family: var(--font);
