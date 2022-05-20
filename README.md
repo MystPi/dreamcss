@@ -6,7 +6,7 @@
 
 DreamCSS styles your web page so you don't have to. No classes. No extra markup. Just one `link` and it's ready.
 
-Visit https://dreamcss.cf for docs, examples, themes, and more.
+Visit https://dreamcss.glitch.me for docs, examples, themes, and more.
 
 ## Sneakpeek
 DreamCSS looks great, right out of the box. To see what I mean, take a look at this image. It has **no** extra CSS or classes applied to it's HTML:
